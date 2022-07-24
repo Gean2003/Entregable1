@@ -1,0 +1,56 @@
+.quote__card {
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 9px 14px 0px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 5px 9px 14px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: 5px 9px 14px 0px rgba(0,0,0,0.44);
+    background: white;
+
+}
+
+.quote__index {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.quote__name{
+    font-size: 20px;
+    text-align: end;
+    margin: 0;
+}
+
+.fa-solid {
+    font-size: 40px;
+    margin: 0;
+}
+
+.quote__author  {
+    text-align: end;
+}
+
+
+.quote__btn-container {
+    width: 100%;
+    text-align: end;
+}
+
+.quote__btn {
+    width: 40px;
+    border: none;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    transition: box-shadow 200ms ease;
+}
+
+.quote__btn:hover {
+     box-shadow: 0 0 5px #000;
+    transition: box-shadow 200ms ease;
+}
